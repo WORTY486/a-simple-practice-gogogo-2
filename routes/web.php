@@ -30,3 +30,14 @@ Route::get('/web_picture/edit','HomeController@edit');
 Route::post('/web_picture/update','HomeController@update');
 
 Route::get('/web_picture/index','HomeController@WebIndex');
+
+
+
+Route::get('/MessageBoard/add','MessageController@add');
+
+Route::post('/MessageBoard/store','MessageController@store');
+
+Route::get('/MessageBoard/edit/{id}','MessageController@edit');
+
+Route::get('/MessageBoard/index','MessageController@index');
+

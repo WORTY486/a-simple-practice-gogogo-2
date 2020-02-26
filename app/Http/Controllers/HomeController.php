@@ -59,15 +59,5 @@ class HomeController extends Controller
         else{
             return back();
         }
- 
-   public function two(Request $request)
-    {
-      return response()->json([
-          "ret"=>200,
-          "desc"=>"success",
-          "data"=>[
-              "result"=>strrev($request->a)
-          ]
-      ]);
     }
 }
