@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         body{
-            background-image: url("./BackgroundAdd.jpg");
+            background-image: url("{{ URL::asset('images/BackgroundAdd.jpg') }}");
             text-align: center;
         }
         .whole{

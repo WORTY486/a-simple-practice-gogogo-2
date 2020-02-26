@@ -8,7 +8,7 @@
 </head>
 <style>
     body{
-        background-image: url('./img/BackgroundAdd.jpg');
+        background-image: url("{{ URL::asset('images/BackgroundAdd.jpg') }}");
     }
     .whole{
             display: block;
@@ -27,7 +27,7 @@
     a#edit:hover{color:gray;}
 </style>
 <body>
-</br></br></br></br></br>
+<br/><br/><br/><br/><br/>
     <div class="whole">
     <table>
         <tr>
